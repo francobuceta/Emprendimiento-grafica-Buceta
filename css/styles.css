@@ -57,6 +57,7 @@ nav ul li a {
 
 nav ul li a:hover {
     background-color: rgb(160, 188, 194);
+    transform: scale(1.2);
 }
 
 .imgFixe {
@@ -263,7 +264,13 @@ footer ul li a:hover {
     align-items: center;
 }
 
+i {
+    transition: transform 0.6s;
+}
 
+ul li a i:hover {
+    transform: scale(1.2);
+}
 
 
 /* Servicios (servicios.html)*/
